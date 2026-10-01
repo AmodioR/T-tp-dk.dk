@@ -1,0 +1,307 @@
+html * {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #f5f2e9;
+  margin: 0;
+}
+
+header {
+  height: 48px;
+  align-content: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 120px;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  gap: 45px;
+  justify-content: center;
+}
+
+li {
+  list-style: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: #365442;
+  font-weight: bold;
+}
+
+.hero-content {
+  display: flex;
+  width: auto;
+  gap: 48px;
+  padding: 64px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  width: 620px;
+  padding: 0;
+  gap: 24px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+h1 {
+  font-size: 56px;
+  line-height: 64px;
+  color: #365442;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #202a25;
+  padding: 0;
+  margin: 0;
+  line-height: 28px;
+}
+
+.hero button {
+  padding: 14px 24px;
+  border: none;
+  background-color: #d94b42;
+  border-radius: 8px;
+  color: #f5f2e9;
+}
+
+.hero-img {
+  height: 432px;
+  width: 532px;
+  border-radius: 24px;
+}
+
+/*This section is for USP section*/
+
+.usp {
+  padding: 72px 0px;
+}
+
+.usp-grid {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 48px;
+  height: 160px;
+}
+
+.usp-card {
+  text-align: center;
+  width: 288px;
+}
+
+.usp-card p {
+  color: #202a25;
+}
+
+.usp-card span {
+  font-size: larger;
+}
+
+.usp-1 {
+  color: #365442;
+}
+
+.usp-2 {
+  color: #9eaf96;
+}
+
+.usp-3 {
+  color: #6e9aaa;
+}
+
+/*This is for populære oplevelser*/
+
+.populære-oplevelser h2 {
+  margin: 0;
+  color: #365442;
+  font-size: 40px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.populære-oplevelser-content {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+
+.experience-card {
+  width: 282px;
+  padding: 10px;
+  gap: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+.experience-card img {
+  height: 220px;
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.card-row {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+.card-title {
+  font-size: 20px;
+  color: #365442;
+  line-height: 28px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-subtitle {
+  font-size: 14px;
+  line-height: 20px;
+  color: #202a25;
+  margin: 0;
+}
+
+.community {
+  background-color: #9eaf96;
+  padding: 72px 0px;
+}
+
+h2 {
+  margin: 0;
+  color: #365442;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.community p {
+  font-size: 18px;
+  color: #202a25;
+}
+
+.community-content {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.community-content p {
+  margin: 0;
+}
+
+.populære-oplevelser {
+  padding: 72px 0px;
+}
+
+.community-images {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+  width: 100%;
+}
+
+.community-img img {
+  width: 100%;
+  height: 220px;
+  border-radius: 16px;
+  object-fit: cover;
+}
+
+.community-img {
+  width: 100%;
+}
+
+.final-cta {
+  padding: 72px 0px;
+}
+
+.final-cta-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.final-cta-content button {
+  padding: 14px 24px;
+  border: none;
+  background-color: #d94b42;
+  border-radius: 8px;
+  color: #f5f2e9;
+  max-width: 179px;
+}
+
+.final-cta-content p {
+  font-size: 18px;
+  margin: 0;
+}
+
+footer {
+  background-color: #365442;
+  padding: 52px 0px;
+}
+
+h4 {
+  color: #f5f2e9;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 48px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand p {
+  margin: 0;
+  color: #f5f2e9;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social p {
+  margin: 0;
+  color: #f5f2e9;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter p {
+  margin: 0;
+  color: #f5f2e9;
+}
