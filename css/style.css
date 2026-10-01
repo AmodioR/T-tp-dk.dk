@@ -83,6 +83,26 @@ h1 {
   color: #f5f2e9;
 }
 
+.cta-button {
+  padding: 14px 24px;
+  border: none;
+  background-color: #d94b42;
+  border-radius: 8px;
+  color: #f5f2e9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cta-button:hover {
+  padding: 14px 24px;
+  border: none;
+  background-color: #da3d32;
+  border-radius: 8px;
+  color: #f5f2e9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
 .hero-img {
   height: 432px;
   width: 532px;
@@ -322,6 +342,14 @@ h4 {
   padding: 14px 24px;
   border: none;
   background-color: #d94b42;
+  border-radius: 8px;
+  color: #f5f2e9;
+}
+
+.des-hero-content button:hover {
+  padding: 14px 24px;
+  border: none;
+  background-color: #da3d32;
   border-radius: 8px;
   color: #f5f2e9;
 }
