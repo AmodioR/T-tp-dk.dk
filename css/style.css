@@ -1,3 +1,5 @@
+/*Generelle regler*/ /*Patrick*/
+
 html * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -5,12 +7,6 @@ html * {
 body {
   background-color: #f5f2e9;
   margin: 0;
-}
-
-header {
-  height: 48px;
-  align-content: center;
-  justify-content: center;
 }
 
 .container {
@@ -37,38 +33,6 @@ a {
   color: #365442;
   font-weight: bold;
 }
-.hero {
-  background-image: url("../assets/images/hero\ 2.jpg");
-  background-size: cover;
-  height: 420px;
-}
-.oplevelser-hero-content {
-  display: flex;
-  flex-direction: column;
-}
-.hero-content {
-  display: flex;
-  width: auto;
-  gap: 48px;
-  padding: 64px 0;
-  align-items: center;
-  justify-content: center;
-}
-.experience-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 24px;
-}
-.cta {
-  width: 620px;
-  padding: 0;
-  gap: 24px;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-shrink: 0;
-}
 
 h1 {
   font-size: 56px;
@@ -79,19 +43,14 @@ h1 {
   margin: 0;
 }
 
-.hero p {
-  font-size: 18px;
-  color: #202a25;
-  padding: 0;
+h2 {
   margin: 0;
-  line-height: 28px;
+  color: #365442;
+  font-size: 40px;
+  font-weight: 600;
 }
 
-.hero button {
-  padding: 14px 24px;
-  border: none;
-  background-color: #d94b42;
-  border-radius: 8px;
+h4 {
   color: #f5f2e9;
 }
 
@@ -106,13 +65,93 @@ h1 {
 }
 
 .cta-button:hover {
-  padding: 14px 24px;
-  border: none;
   background-color: #da3d32;
-  border-radius: 8px;
+}
+
+/*Header regler*/ /*Patrick*/
+
+header {
+  height: 48px;
+  align-content: center;
+  justify-content: center;
+}
+
+/*Footer regler*/
+
+footer {
+  background-color: #365442;
+  padding: 52px 0px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 48px;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.brand p {
+  margin: 0;
   color: #f5f2e9;
-  font-size: 14px;
-  font-weight: 400;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social p {
+  margin: 0;
+  color: #f5f2e9;
+}
+
+.newsletter {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.newsletter p {
+  margin: 0;
+  color: #f5f2e9;
+}
+
+/*FORSIDE REGLER START*/
+/*Forside Hero regler*/ /*Patrick*/
+
+.hero-content {
+  display: flex;
+  width: auto;
+  gap: 48px;
+  padding: 64px 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.cta {
+  width: 620px;
+  padding: 0;
+  gap: 24px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  color: #202a25;
+  padding: 0;
+  margin: 0;
+  line-height: 28px;
 }
 
 .hero-img {
@@ -121,7 +160,7 @@ h1 {
   border-radius: 24px;
 }
 
-/*This section is for USP section*/
+/*USP regler*/ /*Patrick*/
 
 .usp {
   padding: 72px 0px;
@@ -160,7 +199,7 @@ h1 {
   color: #6e9aaa;
 }
 
-/*This is for populære oplevelser*/
+/*Populære oplevelser regler*/ /*Patrick*/
 
 .populære-oplevelser h2 {
   margin: 0;
@@ -214,16 +253,11 @@ h1 {
   margin: 0;
 }
 
+/*Community regler*/
+
 .community {
   background-color: #9eaf96;
   padding: 72px 0px;
-}
-
-h2 {
-  margin: 0;
-  color: #365442;
-  font-size: 40px;
-  font-weight: 600;
 }
 
 .community p {
@@ -263,6 +297,8 @@ h2 {
   width: 100%;
 }
 
+/*Final CTA regler*/ /*Patrick*/
+
 .final-cta {
   padding: 72px 0px;
 }
@@ -275,68 +311,39 @@ h2 {
   text-align: center;
 }
 
-.final-cta-content button {
-  padding: 14px 24px;
-  border: none;
-  background-color: #d94b42;
-  border-radius: 8px;
-  color: #f5f2e9;
-  max-width: 179px;
-}
-
 .final-cta-content p {
   font-size: 18px;
   margin: 0;
 }
 
-footer {
-  background-color: #365442;
-  padding: 52px 0px;
+/*FORSIDE REGLER SLUT*/
+/*OPLEVELSER REGLER START*/
+
+/*Oplevelser hero regeler*/ /*Tilde*/
+
+.hero-2 {
+  background-image: url("../assets/images/hero\ 2.jpg");
+  background-size: cover;
+  height: 420px;
 }
 
-h4 {
-  color: #f5f2e9;
-}
-
-.footer-top {
+.oplevelser-hero-content {
   display: flex;
-  justify-content: center;
-  width: 100%;
-  gap: 48px;
-}
-
-.brand {
-  display: flex;
-  align-items: center;
   flex-direction: column;
 }
 
-.brand p {
-  margin: 0;
-  color: #f5f2e9;
+/*Experience grid regler*/ /*Tilde*/
+
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
 }
 
-.social {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
+/*OPLEVELSER REGLER SLUT*/
+/*DESTINATIONER REGLER START*/
 
-.social p {
-  margin: 0;
-  color: #f5f2e9;
-}
-
-.newsletter {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-}
-
-.newsletter p {
-  margin: 0;
-  color: #f5f2e9;
-}
+/*Destinationer hero regler*/ /*Patrick*/
 
 .des-hero {
   padding-top: 88px;
@@ -359,11 +366,7 @@ h4 {
 }
 
 .des-hero-content button:hover {
-  padding: 14px 24px;
-  border: none;
   background-color: #da3d32;
-  border-radius: 8px;
-  color: #f5f2e9;
 }
 
 .site-tag {
@@ -374,6 +377,8 @@ h4 {
   color: #202a25;
   margin: 0;
 }
+
+/*populære destinationer regler*/ /*Patrick*/
 
 .pop-des-content {
   display: flex;
@@ -454,3 +459,5 @@ h4 {
   object-fit: cover;
   border-radius: 20px;
 }
+
+/*DESTINATIONER REGLER SLUT*/
