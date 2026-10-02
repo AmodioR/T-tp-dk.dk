@@ -37,7 +37,15 @@ a {
   color: #365442;
   font-weight: bold;
 }
-
+.hero {
+  background-image: url("../assets/images/hero\ 2.jpg");
+  background-size: cover;
+  height: 420px;
+}
+.oplevelser-hero-content {
+  display: flex;
+  flex-direction: column;
+}
 .hero-content {
   display: flex;
   width: auto;
@@ -46,7 +54,11 @@ a {
   align-items: center;
   justify-content: center;
 }
-
+.experience-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
 .cta {
   width: 620px;
   padding: 0;
